@@ -1,0 +1,184 @@
+
+.background1{
+background: #F5F5F5;
+}
+.class{
+  position: relative;
+  color:#223759 ;
+  text-align: center;
+  text-overflow: clip;
+  width: auto;
+  float: none;
+  flex-direction: column;
+  cursor: cell;
+  display: flex;
+  font-variant-numeric: lining-nums;
+  direction: initial;
+  
+}
+.custom-card {
+position: relative;
+color: white;
+text-align: center;
+}
+.custom-card img {
+width: 100%;
+height: auto;
+}
+.custom-card-title {
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+background: rgba(0, 0, 0, 0.5);
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.hero-section {
+position: relative;
+text-align: center;
+color: white;
+}
+.hero-section img {
+width: 100%;
+height: auto;
+display: block;
+}
+.hero-section .overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hero-section .overlay .play-button {
+width: 50px;
+height: 50px;
+background: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+.hero-section .overlay .play-button i {
+font-size: 24px;
+color: orange;
+}
+.hero-section .overlay h1 {
+font-size: 2rem;
+}
+.scroll-down {
+position: absolute;
+bottom: 20px;
+right: 20px;
+width: 40px;
+height: 40px;
+background: orange;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+}
+.tour img{
+height: 230px;
+object-fit: cover;
+}
+
+/* Hero Section1 */
+.hero-section1 {
+background: url('https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg') no-repeat center center;
+background-size: cover;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero-section1 .container {
+
+padding: 20px;
+border-radius: 10px;
+}
+
+.hero-section1 .highlight {
+color: #FFA500;
+}
+.rgb{
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Team Section */
+.team-section {
+background-color: #f8f9fa;
+}
+
+.team-member {
+padding: 20px;
+}
+
+.team-member img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border: 5px solid #fff;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h5 {
+margin-top: 15px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.footer-section {
+position: relative;
+}
+
+.footer-section h5 {
+margin-bottom: 1rem;
+}
+
+.footer-section p, .footer-section a {
+margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+color: #ffffff;
+text-decoration: none;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+.footer-section .scroll-top {
+position: absolute;
+right: 20px;
+bottom: 20px;
+background-color: #ffa500;
+color: #ffffff;
+padding: 10px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+
+.footer-section .scroll-top:hover {
+background-color: #e59400;
+}
+
+.footer-section .fab {
+font-size: 1.5rem;
+}
